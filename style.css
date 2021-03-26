@@ -116,6 +116,7 @@ li >    input[type="text"] {
 li > button.delete:hover {
   color: #cf2323;
 }
+
 button.delete img {
   height: 2em;
   transform: rotatez(45deg);
