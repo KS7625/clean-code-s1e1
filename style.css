@@ -2,7 +2,7 @@
 body {
   background-color: #f8f8f8;
   color: #333;
-  font-family: lato, sans-serif;
+  font-family: Lato, sans-serif;
 }
 header {
   width: 500px;
@@ -49,15 +49,15 @@ button {
   color: #888;
   font-size: 15px;
   width: 60px;
-  font-family: lato, sans-serif;
+  font-family: Lato, sans-serif;
   cursor: pointer;
 }
 button:hover {
   color: #3a3a3a;
 }
 /* heading */
-h3,
-label[for="new-task"] {
+h3/* ,
+label[for="new-task"] */{
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -75,7 +75,7 @@ input[type="text"] {
   border: 1px solid #ddd;
   background: #fff;
   border-radius: 6px;
-  font-family: lato, sans-serif;
+  font-family: Lato, sans-serif;
   color: #888;
 }
 input[type="text"]:focus {
@@ -88,6 +88,7 @@ label[for="new-task"] {
   margin: 0 0 20px;
 }
 #new-task {
+  box-sizing: border-box;
   width: 318px;
 }
 p > button:hover {
